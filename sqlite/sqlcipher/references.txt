@@ -1,0 +1,32 @@
+https://www.domstamand.com/compiling-sqlcipher-sqlite-encrypted-for-windows-using-visual-studio-2022/
+
+
+# Flags to include OpenSSL
+TCC = $(TCC) -DSQLITE_HAS_CODEC -I"C:\Program Files\OpenSSL-Win64\include"
+
+DSQLITE_HAS_CODEC
+
+LTLIBPATHS = $(LTLIBPATHS) /LIBPATH:$(ICULIBDIR) /LIBPATH:"C:\Program Files\OpenSSL-Win64\lib\VC\static"
+LTLIBS = $(LTLIBS) libcrypto64MT.lib libssl64MT.lib ws2_32.lib shell32.lib advapi32.lib gdi32.lib user32.lib crypt32.lib kernel32.lib
+
+
+nmake /f E:\Temp\GitHub\sqlcipher-build\sqlcipher\Makefile.msc TOP=E:\Temp\GitHub\sqlcipher
+nmake /f C:\sqlcipher\Makefile.msc TOP=D:\Downloads\tmp\sqlcipher-4.6.1\sqlcipher-4.6.1
+nmake /f D:\Downloads\tmp\sqlcipher-build\sqlcipher\Makefile.msc TOP=D:\Downloads\tmp\sqlcipher
+
+
+cmd /k "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\VsDevCmd.bat"
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" x64
+
+
+
+nmake -f Makefile.msc TOP=C:\sqlcipher
+
+
+SET PATH=%PATH%;C:\Tcl\bin
+
+https://stackoverflow.com/questions/65903739/fatal-error-when-building-sqlcipher3-from-macos-sqlcipher-sqlite3-h-file-not
+
+C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\BIN\\x86_amd64\\cl.exe
+
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\\nmake.exe

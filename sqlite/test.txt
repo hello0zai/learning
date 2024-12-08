@@ -1,0 +1,13 @@
+.\sqlite3.exe testnoencryption.db
+SQLite version 3.37.1 2021-12-30 15:30:28
+Enter ".help" for usage hints.
+sqlite> CREATE TABLE test(COL1 int);
+sqlite> .tables
+test
+sqlite> .schema test
+CREATE TABLE test(COL1 int);
+sqlite> .quit
+
+git -c user.name='hello0zai' -c user.email='hello0zaizai@gmail.com' commit -m "first commit"
+
+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_test_

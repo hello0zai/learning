@@ -1,0 +1,12 @@
+step to build sqlciper
+
+
+/d/Downloads/tmp/sqlcipher/build
+
+nmake /f ..\Makefile.msc TOP=..\
+
+
+1. Clone https://github.com/sqlcipher/sqlcipher to /d/Downloads/tmp/sqlcipher/
+2. Edit Makefile.msc file
+3. Create build folder in /d/Downloads/tmp/sqlcipher/
+4. run nmake /f ..\Makefile.msc TOP=..\ in build folder.

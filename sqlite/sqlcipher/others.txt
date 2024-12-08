@@ -1,0 +1,28 @@
+https://stackoverflow.com/questions/65903739/fatal-error-when-building-sqlcipher3-from-macos-sqlcipher-sqlite3-h-file-not
+
+C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\BIN\\x86_amd64\\cl.exe
+
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\\nmake.exe
+
+https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-%E2%80%94-Compiling-SQLCipher
+
+https://www.domstamand.com/compiling-sqlcipher-sqlite-encrypted-for-windows-using-visual-studio-2022/
+
+https://github.com/skolson/sqlcipher-openssl-build
+
+https://gist.github.com/smourier/589fa1b02c489e5a50a1b2eeef1157f5
+
+
+https://www.youtube.com/watch?v=SFHGeetZ0po&ab_channel=FredNjira
+
+https://yandex.ru/video/preview/58440767682056695
+
+https://nxmax.github.io/development/compile-sqlcipher-on-windows/
+
+http://www.jerryrw.com/howtocompile.php
+
+https://gufeng.sh/note/compiling-sqlcipher/
+
+https://blog.2cn.in/index.php/archives/sqlcipher-msvc.html
+
+https://github.com/sqlcipher/sqlcipher

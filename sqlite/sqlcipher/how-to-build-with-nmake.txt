@@ -1,0 +1,41 @@
+"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" x64
+nmake -f makefile.vc release
+nmake -f makefile.vc test
+nmake -f makefile.vc install INSTALLDIR=c:\Tcl
+
+add this to edit system edit envinorment varirables
+
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin
+
+C:\Program Files (x86)\Windows Kits\10\bin\10.0.19041.0\x64
+
+
+Solution 2: Ensure the Resource Compiler is Installed
+Open the Visual Studio Installer.
+Select your installed Visual Studio version and click Modify.
+Ensure the Desktop Development with C++ workload is installed.
+Specifically, ensure the MSVC tools, Resource Compiler, and Windows SDK are selected.
+
+
+https://www.sqlite.org/download.html
+sqlite
+set TCLDIR=c:\Tcl
+
+
+
+
+https://stackoverflow.com/questions/42190568/vs-2010-and-cmake-rc-is-not-recognized-as-an-internal-or-external-command
+
+
+https://github.com/rigglemania/pysqlcipher3/issues/34
+
+sqlcipher 
+python
+
+Modify setup.py
+
+def quote_argument(arg):
+    quote = '"'
+    return quote + arg + quote
+	
+https://github.com/sqlitebrowser/sqlitebrowser/wiki/Win64-setup-%E2%80%94-Compiling-SQLCipher
