@@ -1,0 +1,5 @@
+https://stackoverflow.com/questions/37255548/how-to-run-celery-on-windows
+https://flask.palletsprojects.com/en/stable/patterns/celery/
+https://testdriven.io/courses/flask-celery/getting-started/
+https://medium.com/@Aman-tech/celery-with-flask-d1f1c555ceb7
+https://github.com/irisqi1/WAPE_wechat/blob/master/wxcloudrun/model.py

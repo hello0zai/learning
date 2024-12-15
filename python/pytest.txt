@@ -1,0 +1,15 @@
+ pytest -s tests/test_blog.py
+
+264
+
+simply run pytest with the path to the file
+
+something like
+
+pytest tests/test_file.py
+Use the :: syntax to run a specific test in the test file:
+
+pytest test_mod.py::test_func
+Here test_func can be a test method or a class (e.g.: pytest test_mod.py::TestClass)
+
+https://stackoverflow.com/questions/34833327/how-to-test-single-file-under-pytest

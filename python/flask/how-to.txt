@@ -1,0 +1,2 @@
+curl -X POST http://localhost/login
+curl -X GET http://localhost/login
